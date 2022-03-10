@@ -1,0 +1,12 @@
+.vs
+*.user
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+
+# macOS
+.DS_Store
+
+# PyCharm
+.idea
