@@ -10,7 +10,7 @@ function Invoke-EAPrimer
     By default output will be displayed in the console. This can be redirected by the user through the
     "POST" parameter to write to a file or even send results via HTTP POST request.
 
-    Author: @m8r0wn
+    Author: @m8sec
     License: MIT
     Required Dependencies: None
     Optional Dependencies: None
