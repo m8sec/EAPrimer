@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Runtime.InteropServices;
 
 /*
-Author: m8r0wn
+Author: m8sec
 Description: DeObfuscated version of EAPrimer project
 References:
     https://github.com/Flangvik/NetLoader  
