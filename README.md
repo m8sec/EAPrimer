@@ -17,7 +17,9 @@ EAPrimer.exe -path=.\Seatbelt.exe -post=results.txt -args="-group=all"
 
 
 ## Invoke-EAPrimer.ps1
-The main purpose for writing EAPrimer.exe was to act as a support, or "Primer", for executing assemblies. Ultimately allowing for an "execute_assembly" module in pentest frameworks such as <a href="https://github.com/m8sec/ActiveReign">ActiveReign</a> and <a href="https://github.com/byt3bl33d3r/CrackMapExec">CrackMapExec</a>. The PowerShell script allows for added flexibility to create these modules  *(coming soon)*.
+The main purpose for writing EAPrimer.exe was to act as a support, or "Primer", for executing assemblies. Ultimately allowing for an "execute_assembly" module in pentest frameworks such as <a href="https://github.com/m8sec/ActiveReign">ActiveReign</a> and <a href="https://github.com/byt3bl33d3r/CrackMapExec">CrackMapExec</a>. The PowerShell script allows for added flexibility to create these modules.
+
+> ⚠️ Alternate methods have since been used to more efficiently load .NET assemblies in memory. However, I have kept this file in the repo as an additional PoC.
 
 #### Usage:
 ```powershell
